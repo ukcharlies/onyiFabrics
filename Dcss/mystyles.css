@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 5px;
+    width: 90%;
+   margin: 0 auto;
+   border: 2px solid red;
+}
+nav .container .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 2px solid green;
+    font-style: italic;
+    font-size: 1.5rem;
+}
