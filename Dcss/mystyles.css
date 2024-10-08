@@ -2,21 +2,65 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
 nav .container{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 10px 5px;
-    width: 90%;
-   margin: 0 auto;
-   border: 2px solid red;
+    align-items: center;
+    padding: 2px 2px;
+    margin:  auto;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-image: url(../images/nav.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat;
 }
 nav .container .logo{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    border: 2px solid green;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: #f8f8f8;
+}
+nav .container .menu-logo img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f8f8f8;
+    margin-right: 10px;
+}
+footer .container{
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-top: 30px;
+}
+footer .container .footer-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    
+}
+footer .container .footer-socials img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #f8f8f8;
+    font-size: 2.5rem;
+    text-decoration: none;
 }
